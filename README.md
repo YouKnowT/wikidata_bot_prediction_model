@@ -5,3 +5,5 @@ Code to build bot prediction model for Wikidata.
 More details coming!
 
 Run model_builder.sh to build Wikidata bot prediction model.
+
+Note that currently all file paths are those used in our own environment so they will need to be changed by the user.
