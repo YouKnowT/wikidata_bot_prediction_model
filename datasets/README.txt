@@ -1,8 +1,8 @@
 See the paper for full details of this work: https://www-users.cs.umn.edu/~hall1467/wikidata_bot_prediction.pdf
 
-Our bot prediction results dataset can be found here: https://analytics.wikimedia.org/datasets/archive/public-datasets/wikidatawiki/bot_likelihood/
+A bot prediction results dataset can be found here: https://analytics.wikimedia.org/datasets/archive/public-datasets/wikidatawiki/bot_likelihood/
 
-This combines results from anonymous and registered user datasets up to the beginning of May 2017.
+This dataset actually combines two datasets: 1) results from application of the model to anonymous user edits and 2) results from application of the model to registered user edits. In both cases, the model was applied to revisions through the beginning of May 2017.
 
 The file has three columns. The first column is a Wikidata revision id. The second column is a boolean representing whether or not the revision was explicitly flagged as a bot (e.g. a bot user account). The third/last column is based on the results of the application of our prediction model. 
 
