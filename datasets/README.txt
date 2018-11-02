@@ -2,8 +2,6 @@ See the paper for full details of this work: https://www-users.cs.umn.edu/~hall1
 
 Our bot prediction results dataset can be found here: https://analytics.wikimedia.org/datasets/archive/public-datasets/wikidatawiki/bot_likelihood/
 
-
-
 This combines results from anonymous and registered user datasets up to the beginning of May 2017.
 
 The file has three columns. 
