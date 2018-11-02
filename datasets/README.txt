@@ -4,10 +4,7 @@ Our bot prediction results dataset can be found here: https://analytics.wikimedi
 
 This combines results from anonymous and registered user datasets up to the beginning of May 2017.
 
-The file has three columns. 
-The first column is a Wikidata revision id. 
-The second column is a boolean representing whether or not the revision was explicitly flagged as a bot (e.g. a bot user account). 
-The third column is based on the results of the application of our prediction model. 
+The file has three columns. The first column is a Wikidata revision id. The second column is a boolean representing whether or not the revision was explicitly flagged as a bot (e.g. a bot user account). The third column is based on the results of the application of our prediction model. 
 
 Some values for this last column may be “\N” since we could only run our model on user “editing sessions” containing more than 2 edits (see the paper for more details — it has to do with model features that looked at times between edits. For example, the standard deviation of such times).
 
