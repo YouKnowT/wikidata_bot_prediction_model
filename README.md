@@ -1,3 +1,6 @@
+See the directory "datasets" for results from the application of our model as described in our paper: https://www-users.cs.umn.edu/~hall1467/wikidata_bot_prediction.pdf
+
+
 # wikidata_bot_prediction_model
 Code to build bot prediction model for Wikidata.
 
