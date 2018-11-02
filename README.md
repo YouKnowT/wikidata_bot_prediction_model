@@ -10,4 +10,4 @@ Note that currently all file paths are those used in our own environment so they
 
 
 # datasets
-See the directory "datasets" for results from the application of our model as described in our paper: https://www-users.cs.umn.edu/~hall1467/wikidata_bot_prediction.pdf
+See the directory "datasets" for results from the application of our model which is described in our paper: https://www-users.cs.umn.edu/~hall1467/wikidata_bot_prediction.pdf
