@@ -9,3 +9,6 @@ The file has three columns. The first column is a Wikidata revision id. The seco
 Some values for this last column may be “\N” since we could only run our model on user “editing sessions” containing more than 2 edits (see the paper for more details).
 
 The last column provides likelihood estimates. These are not direct probabilities that a given edit is from a bot. Rather they correspond to what is considered to be a bot as the recall of the model is “shifted” in intervals of .1. This concept is described in section 4.2 of the paper. See section 4.2.1 for recommendations as to what threshold is appropriate for your analyses.
+
+
+Additionally, MODEL_TESTING_I2_FILTERED_predictors_and_labelled_data.tsv provides the testing data used on our completed model. predictors_and_labelled_data.tsv is our corresponding training datset.
